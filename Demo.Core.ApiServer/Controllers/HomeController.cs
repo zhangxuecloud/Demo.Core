@@ -19,7 +19,7 @@ namespace Demo.Core.ApiServer.Controllers
         [HttpGet]
         public string Index()
         {
-            return "hello:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
+            return "Hello World：" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
         }
     }
 }
