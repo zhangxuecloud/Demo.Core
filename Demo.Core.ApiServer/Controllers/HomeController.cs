@@ -12,10 +12,14 @@ namespace Demo.Core.ApiServer.Controllers
     public class HomeController : ControllerBase
     {
 
+        /// <summary>
+        /// 首页
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public string Index()
         {
-            return "hello" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
+            return "hello:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
         }
     }
 }
