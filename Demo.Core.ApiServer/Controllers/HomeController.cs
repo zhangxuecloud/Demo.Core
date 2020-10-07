@@ -13,7 +13,7 @@ namespace Demo.Core.ApiServer.Controllers
     {
 
         /// <summary>
-        /// 首页
+        /// 首页   
         /// </summary>
         /// <returns></returns>
         [HttpGet]
